@@ -13,6 +13,7 @@ latex-examples-0.0.5.tar.bz2
   o Removed empty branches/ 
   o Removed empty docs/
   o Removed tags/ from base (deprecated)
+  o Moved src/tex to tex/
   o Migrated trunk/* files to base
 
 latex-examples-0.0.4.tar.bz2
