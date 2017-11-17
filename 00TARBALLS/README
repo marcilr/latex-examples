@@ -1,0 +1,24 @@
+README
+Created Mon Aug 31 16:20:46 AKDT 2009
+by Raymond E. Marcil
+
+
+
+Filelist
+========
+latex-examples-0.0.4.tar.bz2
+  Wed Feb 16 10:26:55 AKST 2011
+  o Added Makefile to base.
+  o Updated DEPENDENCIES
+  o Moved LaTeX source and build to src/tex/
+  o Added non-numbered endnotes section before appendix.
+  o Removed Section number from Appendix.
+  o Updated TODO
+
+latex-examples-0.0.3.tar.bz2
+  Tarball distribution of LaTeX examples directory.
+  Fri Mar 26 08:54:37 AKDT 2010
+
+example-0.0.2.tar.bz
+  Tarball distribution of LaTeX example directory.
+  Mar 23, 2010
