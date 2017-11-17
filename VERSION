@@ -15,11 +15,17 @@
 
 major = 0
 minor = 0
-patch = 4
+patch = 5
 
 
 #
-# ??? - 0.0.5
+# Thu Nov 16 15:37:54 AKST 2017 - 0.0.5
+# o Migrated from subversion to git
+# o Cleaned up directory structure
+# o Removed empty branches/ 
+# o Removed empty docs/
+# o Removed tags/ from base (deprecated)
+# o Migrated trunk/* files to base
 # o Updated table examples.
 #
 # Wed Feb 16 10:06:26 AKST 2011 - 0.0.4
