@@ -131,7 +131,7 @@ ${PS}: $(DVI)
 
 ${PDF}: ${PS}
 	${PS2PDF} ${PS} ${PDF}
-	${CP} ${PDF} ../..
+	${CP} ${PDF} ..
 
 #
 # Build source distribution.
