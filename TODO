@@ -1,0 +1,40 @@
+TODO
+Created Tue Feb 23 16:47:50 AKST 2010
+by Raymond E. Marcil
+
+
++++ Mar 26, 2010 - Reverted to dist-build.xml project name of 'latex-examples'.
+Had to since it is used for the distribution tarball name.  Abstract the project 
+name to the VERSION file?  Better way to eliminate this hardcoded value?
+
+The build.xml inherits the project name from the *.tex.in filename.  
+Perhaps dist-build.xml should do the same for consistency?  Problem with
+this idea is if multiple *.tex.in files were being built it would break.
+
++++ Mar 26, 2010 - Replaced one use of sed with simpler cut statement.  Don't think there is
+any simple way to replace search-n-replace sed use.  Sould use autotools or
+awk but that is the antithesis of simpler. 
+Mar 25, 2010 - Remove use of sed from Makefile.
+
+
+Check out:
+http://www.simplehelp.net/2008/12/24/linux-command-line-magic-find-and-replace/
+
+
+Complete
+========
+x Mar 25, 2010 - Updated Makefile and build.xml to append version to basename of pdf.
+Embed version number in resultant pdf filename.
+    Of course this means modifying the GNU Makefile and ant build.xml
+
+x Mar 25, 2010 - Made build.xml and dist-build.xml abstract.  Makefile was good.
+Make build files abstract for reuse.  No need to embed project name 
+on these files.
+
+x Mar 25, 2010 - Created DEPENDENCIES file.
+Create DEPENDENCIES or INSTALL file with software dependencies used
+to create document.
+
+x Mar 1, 2010 - Updated ant build.xml with VERSION functionality.
+The build.xml does not do the example.tex.in @VERSION@ replacement not 
+copy the file to examples.tex for document build.
