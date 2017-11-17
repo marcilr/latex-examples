@@ -6,6 +6,15 @@ by Raymond E. Marcil
 
 Filelist
 ========
+latex-examples-0.0.5.tar.bz2
+  Thu Nov 16 15:11:05 AKST 2017
+  o Migrated from subversion to git
+  o Cleaned up directory structure
+  o Removed empty branches/ 
+  o Removed empty docs/
+  o Removed tags/ from base (deprecated)
+  o Migrated trunk/* files to base
+
 latex-examples-0.0.4.tar.bz2
   Wed Feb 16 10:26:55 AKST 2011
   o Added Makefile to base.
