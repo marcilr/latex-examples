@@ -1,0 +1,50 @@
+# VERSION
+# Created Tue Feb 23 16:28:02 AKST 2010
+# by Raymond E. Marcil <marcilr@gmail.com>
+# Copyright (C) 2010 Raymond E. Marcil
+# 
+# Permission is granted to copy, distribute and/or modify this document
+# under the terms of the GNU Free Documentation License, Version 1.3
+# or any later version published by the Free Software Foundation;
+# with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+# A copy of the license is included in the section entitled "GNU
+# Free Documentation License".
+#
+# example LaTeX VERSION file.
+#
+
+major = 0
+minor = 0
+patch = 4
+
+
+#
+# ??? - 0.0.5
+# o Updated table examples.
+#
+# Wed Feb 16 10:06:26 AKST 2011 - 0.0.4
+# o Added Makefile to base.
+# o Updated DEPENDENCIES
+# o Moved LaTeX source and build to src/tex/
+# o Added non-numbered endnotes section before appendix.
+# o Removed Section number from Appendix.
+# o Updated TODO
+#
+# Fri Mar 26 08:48:08 AKDT 2010 - 0.0.3
+# o Analysis of sed usage and update of TODO as such.
+# o Made build files abstract, Makefile was already.
+# o Added DEPENDENCIES with software used to build LaTeX document.
+# o Added hyperlink to Appendix.
+#
+# Tue Mar 23 13:57:11 AKDT 2010 - 0.0.2
+# o Added fdl.txt, GNU Free Documentation License, 
+#   Version 1.3, 3 November 2008
+# o Added ant dist-build.xml file to build distribution
+#   from 00DOCUMENTATION/chroot/trunk/dist-build.xml
+# o Updated to ant build.xml from 00DOCUMENTATION/chroot/trunk/build.xml
+# o Updated Makefile to 00DOCUMENTATION/chroot/trunk/Makefile
+#   Better set of targets.
+#
+# Tue Feb 23 16:28:02 AKST 2010 - 0.0.1
+# o Initial VERSION file.
+#
