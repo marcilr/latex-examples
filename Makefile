@@ -17,9 +17,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
-# This Makefile dives into src/tex and runs the Makefile there to
-# build the Elluminate Manifesto from the elive-manifesto.tex.in 
-# input file.
+# This Makefile dives into tex and runs the Makefile there to
+# build the LaTeX Examples document.
 #
 
 
@@ -28,12 +27,6 @@ BASE = $(shell pwd)
 
 # Hardcode BASENAME
 BASENAME=latex-examples
-
-
-#
-# Source code directory
-#
-SRC =  src
 
 # Set VERSION file to use.
 VERSIONFILE = "VERSION"
@@ -71,7 +64,7 @@ BZ2 = ${DIST}.tar.bz2
 #
 # Directories with Makefiles to run
 # 
-DIRS = ${SRC}/tex
+DIRS = tex
 
 
 #
