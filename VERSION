@@ -26,6 +26,7 @@ patch = 5
 # o Removed empty docs/
 # o Removed tags/ from base (deprecated)
 # o Migrated trunk/* files to base
+# o Moved src/tex to tex/
 # o Updated table examples.
 #
 # Wed Feb 16 10:06:26 AKST 2011 - 0.0.4
