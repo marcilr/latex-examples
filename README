@@ -21,12 +21,14 @@ Filelist
 COPYING                  Copy of the GNU GPL or GNU AGPL
 DEPENDENCIES             Project dependencies
 TODO                     Items to accomplish
-VERSION                  Project VERSION
+VERSION                  LaTeX Examples document version
 
 build.xml                Ant build file
 
 clean.bat                Remove dynamically created files from build process
                          Analogous to 'make clean' target
+
+docs/                    Documentation
 
 fdl.txt                  GNU Free Documentation License
                          Version 1.3, 3 November 2008
@@ -38,5 +40,5 @@ dist-build.xml           Ant build file to generate *.tar.bz2 tarball
 latex-examples.tex.in    Input file to create latex-examples.tex LaTeX source
 make.bat                 Makefile for use under Cygwin
 Makefile                 Standard GNU makefile to build document
-VERSION                  example LaTeX document version
-
+pdf/                     Portable Document Format files
+src/                     Source code
